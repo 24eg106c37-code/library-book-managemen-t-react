@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+}
+
+button, input {
+  font: inherit;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  border: 0;
+}
+
+input {
+  border: 1px solid #cbd5e1;
+  width: 100%;
+  margin: 10px 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 12px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+}
